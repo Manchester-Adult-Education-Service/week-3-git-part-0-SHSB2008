@@ -27,13 +27,20 @@
 # 2. Print out 3 separate sentences using these variables with f-strings.
 #    For example: "My favourite sport is football."
 #    (Don’t just copy this! Use your own values.)
-
+#     
+favourite_sport = "cricket"
+favourite_number = 25
+favourite_food = "Biryani"
+#  "My favourite sport is cricket"
+print(f"my favourite sport is {favourite_sport}")
+print (f"my favourite number is {favourite_number}")
+print (f"my favourite food is {favourite_food}")
 # Step 2: Input Practice (ask the user for answers)
 # -------------------------------------------------
 # We can ask the user questions using input().
 # Example:
 # animal = input("What is your favourite animal? ")
-#
+name =input("Hello,what is your name")
 # TODO:
 # 1. Ask the user for their name
 # 2. Store it in a variable called "name"
@@ -48,7 +55,9 @@
 # **Below is a "pre-set" variable because we manually gave it a value**
 # current_year = 2025
 # print(f"In {current_year}, you are living in {city}.")
-
+current_year = 2025
+age =input("What is your age.")
+print(f"In {current_year},you are {age} years old.")
 # TODO:
 # 1. Create a variable called current_year and set it to 2025
 # 2. Ask the user for their age
